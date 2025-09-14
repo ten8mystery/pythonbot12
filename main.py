@@ -47,12 +47,12 @@ def likeItem(proxygroup, data) :
 
 if __name__ == "__main__" :
     while True : 
-        command = input("Select Command -> '0' Close Program, '1' Start LikeBot V2 : ")
+        command = input("Select Command -> '0' Close Program, '1' Start DownloadBot V2 : ")
         if command == "0" :
             break
         elif command == "1" :
             # ItemID , Type (1 = level, 2 = list)
-            item = ["125587165","1"]
+            item = ["ItemID","Type"]
             data = ["endpoint","data"]
             if item[1] == "1" :
                 data[0] = "https://www.boomlings.com/database/downloadGJLevel22.php"
